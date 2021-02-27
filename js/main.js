@@ -1,14 +1,18 @@
 const btns = document.querySelectorAll('.btn')
+let turn = 0
 
 for (const btn of btns) {
   btn.addEventListener('click', (e) => {
     e.preventDefault()
-    btn.innerText = 'O'
+    
+    turn++
+    console.log(turn)
+
+    btn.innerText = turn % 2 === 0 ? 'O' : 'X'
   })
 }
 
 //win conditions 
-test
 
 //player move
 
