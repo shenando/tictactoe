@@ -8,6 +8,7 @@ for (const btn of btns) {
 }
 
 //win conditions 
+test
 
 //player move
 
